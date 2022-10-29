@@ -1,34 +1,34 @@
 {
-    "solution-name": "Timerise",
+    "solution-name": "Spot-App",
     "footer": {
-        "copyright": "Timerise © 2022",
-        "Terms & Conditions": "Terms & Conditions",
-        "Privacy Policy": "Privacy Policy",
+        "copyright": "Spot-App © 2022",
+        "Terms & Conditions": "Términos y Condiciones",
+        "Privacy Policy": "Políticas de Privacidad",
         "powered by": "powered by"
     },
     "validation": {
-        "required": "Required",
-        "minLength": "Minimum length is {{length}} characters",
-        "email": "Incorrect e-mail format",
-        "slots-quantity": "Slots quantity must be greater than 0"
+        "required": "Requerido",
+        "minLength": "La cantidad de caracteres mínimos es {{length}}",
+        "email": "E-mail incorrecto",
+        "slots-quantity": "La cantidad de cupos debe ser mayor a 0"
     },
     "loadingInfo": "Counting backwards from Infinity",
     "theme": {
-        "light": "Light mode",
-        "dark": "Dark mode"
+        "light": "Tema claro",
+        "dark": "Tema oscuro"
     },
     "details": {
-        "Duration": "Duration",
-        "Payment": "Payment",
-        "Location": "Location",
-        "Hosted by": "Hosted by"
+        "Duration": "Duración",
+        "Payment": "Pago",
+        "Location": "Lugar",
+        "Hosted by": "Alojado por"
     },
-    "Select date and time": "Select date and time",
-    "Time zone": "Time zone",
-    "Language": "Language",
-    "No time slots available in this date range": "No time slots available in this date range",
-    "Show more": "Show more",
-    "Show less": "Show less",
-    "available": "available",
-    "Timezone": "Timezone"
+    "Select date and time": "Selecciona fecha y hora",
+    "Time zone": "Zona Horaria",
+    "Language": "Idioma",
+    "No time slots available in this date range": "No hay cupos en este rango de fecha",
+    "Show more": "Mostrar más",
+    "Show less": "Mostrar menos",
+    "available": "disponible",
+    "Timezone": "Zona Horaria"
   }

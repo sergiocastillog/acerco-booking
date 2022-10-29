@@ -1,13 +1,13 @@
 {
-    "fullNameField": "Full name",
-    "phoneField": "Phone",
-    "messageField": "Message",
-    "bookFreeServiceButton": "Book now",
-    "bookServiceButton": "Book & pay",
-    "optionalSuffix": " (optional)",
+    "fullNameField": "Nombre completo",
+    "phoneField": "Teléfono",
+    "messageField": "Mensaje",
+    "bookFreeServiceButton": "Reservar ahora",
+    "bookServiceButton": "Reservar y pagar",
+    "optionalSuffix": " (opcional)",
     "headers": {
-        "Leave your details": "Leave your details"
+        "Leave your details": "Dejar detalles"
     },
-    "Slot already booked": "We are sorry, but the selected time slot has just been booked. Please choose a different time slot.",
-    "maxSlots": "You can book up to {{maxValue}} slots."
+    "Slot already booked": "Lo sentimos. Este cupo acaba ya no está disponible. Por favor selecciona otro.",
+    "maxSlots": "Puedes reservar máximo {{maxValue}} slots."
 }
