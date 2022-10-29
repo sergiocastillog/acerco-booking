@@ -1,36 +1,36 @@
 {
        "status" : {
-           "new": "Check your inbox",
-           "renewed": "Check your inbox",
-           "confirmed": "Booking confirmed!",
-           "accepted": "Booking confirmed!",
-           "canceled": "Booking canceled"
+           "new": "Revisa tu correo",
+           "renewed": "Revisa tu correo",
+           "confirmed": "¡Reserva confirmada!",
+           "accepted": "¡Reserva confirmada!",
+           "canceled": "Reserva cancelada"
         },
         "description": {
            "new": {
-               "both" : "We sent a message to the email address/phone number provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes.",
-               "sms" : "We sent a message to the phone number provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes.",
-               "email": "We sent a message to the email address provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes."
+               "both" : "Te enviamos un mensaje al correo/teléfono. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos.",
+               "sms" : "Te enviamos un mensaje al teléfono. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos.",
+               "email": "Te enviamos un mensaje al correo. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos."
            },
            "renewed": {
-               "both": "We sent a message to the email address/phone number provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes.",
-                "sms" : "We sent a message to the phone number provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes.",
-                "email": "We sent a message to the email address provided. Use the link inside to confirm the booking of the service. The link will be valid for 10 minutes."
+               "both": "Te enviamos un mensaje al correo/teléfono. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos.",
+                "sms" : "Te enviamos un mensaje al teléfono. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos.",
+                "email": "Te enviamos un mensaje al correo. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos."
             },
            "accepted": {
-                "both": "Thank you for booking our service. We sent a confirmation message to the email address/phone number provided. There you will find all the necessary booking details.",
-                "sms" : "Thank you for booking our service. We sent a confirmation message to the phone number provided. There you will find all the necessary booking details.",
-                "email": "Thank you for booking our service. We sent a confirmation message to the email address provided. There you will find all the necessary booking details."
+                "both": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo/teléfono. Encontrarás todos los detalles de la reserva.",
+                "sms" : "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu teléfono. Encontrarás todos los detalles de la reserva.",
+                "email": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo. Encontrarás todos los detalles de la reserva."
             },
            "confirmed": {
-                "both": "Thank you for booking our service. We sent a confirmation message to the email address/phone number provided. There you will find all the necessary booking details.",
-                "sms" : "Thank you for booking our service. We sent a confirmation message to the phone number provided. There you will find all the necessary booking details.",
-                "email": "Thank you for booking our service. We sent a confirmation message to the email address provided. There you will find all the necessary booking details."
+                "both": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo/teléfono. Encontrarás todos los detalles de la reserva.",
+                "sms" : "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu teléfono. Encontrarás todos los detalles de la reserva.",
+                "email": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo. Encontrarás todos los detalles de la reserva."
             },
            "canceled": {
-                "both": "Booking for this service has been canceled. We have sent a confirmation of this operation to the email address/phone number you provided.",
-                "sms" : "Booking for this service has been canceled. We have sent a confirmation of this operation to the phone number you provided.",
-                "email": "Booking for this service has been canceled. We have sent a confirmation of this operation to the email address provided."
+                "both": "La reserva ha sido cancelada. Te enviamos un mensaje a tu correo/teléfono.",
+                "sms" : "La reserva ha sido cancelada. Te enviamos un mensaje a tu teléfono.",
+                "email": "La reserva ha sido cancelada. Te enviamos un mensaje a tu correo."
             }
        },
        "dateTime": {
