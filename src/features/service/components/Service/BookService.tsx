@@ -21,8 +21,9 @@ import { slotsFiltersAtom } from "state/atoms/slotsFilters";
 import { FormField } from "models/formFields";
 import { uploadAttachmentsAtom } from "state/atoms/uploadAttachments";
 import _ from "lodash";
-import { useLocale } from "helpers/hooks/useLocale";
 import { formatInTimeZone } from "date-fns-tz";
+import es from 'date-fns/locale/es'
+
 
 const getStringFieldValidation = (t: TFunction<"forms"[]>, required: boolean) =>
   required
@@ -152,7 +153,6 @@ const initialValues: BookServiceSlotFormProps = {
 };
 
 const BookService = () => {
-  const locale = useLocale();
   const { t } = useTranslation(["forms"]);
   const selectedSlotValue = useRecoilValue(selectedSlot);
   const servicePriceValue = useRecoilValue(servicePrice);
@@ -166,9 +166,7 @@ const BookService = () => {
 
   const formattedDate =
     selectedSlotValue &&
-    formatInTimeZone(selectedSlotValue, "UTC", "iii dd MMM, H:mm", {
-      locale,
-    });
+    formatInTimeZone(selectedSlotValue, "UTC", "iii dd MMM, H:mm", { locale: es });
   const handleSubmit = (value: BookServiceSlotFormProps) => {
     if (slot === undefined) return;
 
