@@ -1,4 +1,4 @@
-import { enGB, pl, uk, de } from "date-fns/esm/locale";
+import { enGB, pl, uk, de, es } from "date-fns/esm/locale";
 import { useRecoilValue } from "recoil";
 import { dateLocaleSelector } from "state/selectors/dateLocale";
 
@@ -7,7 +7,7 @@ export const useLocale = () => {
 
   switch (locale) {
     case "en-gb":
-      return enGB;
+      return es;
     case "pl":
       return pl;
     case "uk":
