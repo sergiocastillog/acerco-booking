@@ -38,8 +38,8 @@ const appTheme: DefaultTheme = {
     },
     button: {
       primary: {
-        background: "#333333",
-        backgroundActive: "#1a1a1a",
+        background: "#3595F6",
+        backgroundActive: "#3595F6",
         backgroundDisabled: "#808080",
         text: WHITE,
       },
