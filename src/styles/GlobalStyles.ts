@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.dark};
     background-color: ${(props) =>
       props.theme.colorSchemas.background.secondary.color};
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
     -webkit-font-smoothing: antialiased;

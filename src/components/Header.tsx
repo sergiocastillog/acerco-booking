@@ -52,8 +52,8 @@ const ErrorHeaderWrapper = styled.div`
 `;
 
 const TimeRiseLogo = styled.img`
-  width: 86px;
-  height: 18px;
+  width: 45%;
+  height: auto;
   position: relative;
   top: -12px;
 `;
@@ -63,7 +63,7 @@ const ErrorHeader = () => {
   return (
     <ErrorHeaderWrapper>
       <TimeRiseLogo
-        src={footerLogo[themeType]}
+        src="https://tu-spot.cl/wp-content/uploads/2022/11/logo-spot.png"
         alt="timerise logo"
         data-cy="time-rise-footer-logo"
       />
@@ -78,13 +78,6 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
   if (isBrandedPage && data === undefined) return <HeaderLoader />;
 
-  const logoUrl = isBrandedPage
-    ? data?.logoUrl
-    : undefined ?? TIMERISE_LOGO_URL;
-  const headerTitle = isBrandedPage
-    ? data?.title
-    : undefined ?? t("solution-name");
-
   if (location.pathname === "/") {
     return <ErrorHeader />;
   }
@@ -93,7 +86,7 @@ const Header: React.FC = () => {
     <Wrapper>
       <Row className="full-row-wrap">
         <Row>
-          <CompanyLogo src={logoUrl} alt="logo" />
+          <CompanyLogo src="https://tu-spot.cl/wp-content/uploads/2022/11/logo-spot.png" alt="logo" />
           <Box ml={1.25}>
             <Typography
               typographyType="h1"
@@ -101,7 +94,6 @@ const Header: React.FC = () => {
               displayType="contents"
               data-cy="company-name"
             >
-              {headerTitle}
             </Typography>
           </Box>
         </Row>
