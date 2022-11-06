@@ -70,6 +70,9 @@ const generateValidationSchema = (
   const systemSlotQuantity = formFields.find(
     (item) => item.fieldType === "SYSTEM_SLOT_QUANTITY"
   );
+  const systemAllowListCode = formFields.find(
+    (item) => item.fieldType === "SYSTEM_ALLOWLIST_CODE"
+  );
 
   return Yup.object({
     ...(systemFullName && {
@@ -89,6 +92,9 @@ const generateValidationSchema = (
     }),
     ...(isAcceptRequired && {
       requireAgreement: Yup.boolean().isTrue(t("common:validation.required")),
+    }),
+    ...(systemAllowListCode && {
+      code: Yup.string().required(t("common:validation.required")),
     }),
   });
 };
