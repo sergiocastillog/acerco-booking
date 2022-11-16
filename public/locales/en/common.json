@@ -10,7 +10,7 @@
         "required": "Requerido",
         "minLength": "La cantidad de carácteres mínimos es {{length}}",
         "email": "E-mail incorrecto",
-        "slots-quantity": "La cantidad de cupos debe ser mayor a 0"
+        "slots-quantity": "La cantidad de personas debe ser mayor a 0"
     },
     "loadingInfo": "Counting backwards from Infinity",
     "theme": {
@@ -29,6 +29,6 @@
     "No time slots available in this date range": "No hay cupos en este rango de fecha",
     "Show more": "Mostrar más",
     "Show less": "Mostrar menos",
-    "available": "disponible",
+    "available": "máx. personas: ",
     "Timezone": "Zona Horaria"
   }

@@ -9,5 +9,5 @@
         "Leave your details": "Dejar detalles"
     },
     "Slot already booked": "Lo sentimos. Este cupo acaba ya no está disponible. Por favor selecciona otro.",
-    "maxSlots": "Puedes reservar máximo {{maxValue}} slots."
+    "maxSlots": "Puedes reservar máximo {{maxValue}} personas."
 }
