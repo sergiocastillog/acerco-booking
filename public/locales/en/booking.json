@@ -18,12 +18,12 @@
                 "email": "Te enviamos un mensaje al correo. Usa el link que recibiste para confirmar tu reserva. El link es válido por 10 minutos."
             },
            "accepted": {
-                "both": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo/teléfono. Encontrarás todos los detalles de la reserva.",
+                "both": "Cuando llegues, acércate a la recepción, pide el código QR Spot y escanéalo...¡Ingresa la información y disfruta tu Spot!",
                 "sms" : "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu teléfono. Encontrarás todos los detalles de la reserva.",
                 "email": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo. Encontrarás todos los detalles de la reserva."
             },
            "confirmed": {
-                "both": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo/teléfono. Encontrarás todos los detalles de la reserva.",
+                "both": "Cuando llegues, acércate a la recepción, pide el código QR Spot y escanéalo...¡Ingresa la información y disfruta tu Spot!",
                 "sms" : "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu teléfono. Encontrarás todos los detalles de la reserva.",
                 "email": "Gracias por utilizar nuestro servicio. Te enviamos un mensaje de confirmación a tu correo. Encontrarás todos los detalles de la reserva."
             },
