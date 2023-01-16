@@ -113,7 +113,7 @@ const BookingCardSummary: React.FC<BookingCardSummaryProps> = ({
       </StyledRow>
       {(status === "CONFIRMED" || status === "ACCEPTED") && booking && (
         <Column w="100%">
-          <Row>
+          {/* <Row>
             <LinkButton href={booking.iCalUrl} download>
               Download .ics
             </LinkButton>
@@ -124,7 +124,7 @@ const BookingCardSummary: React.FC<BookingCardSummaryProps> = ({
             >
               QR code
             </LinkButton>
-          </Row>
+          </Row> */}
           {booking.service?.spaces && (
             <Box mt={5} w="100%">
               {booking.service?.spaces?.map((item) => (
