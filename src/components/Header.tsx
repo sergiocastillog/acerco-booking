@@ -6,11 +6,8 @@ import { Typography } from "components/Typography";
 import styled from "styled-components";
 import { useRecoilValue } from "recoil";
 import { useIsBrandedPageFlag } from "helpers/hooks/useIsBrandedPageFlag";
-import { TIMERISE_LOGO_URL } from "helpers/constans";
-import { useTranslation } from "react-i18next";
 import { headerSelector } from "state/selectors/headerSelector";
 import { useLocation } from "react-router-dom";
-import { themeSelector } from "state/selectors/theme";
 
 const Wrapper = styled.div`
   display: flex;
@@ -42,28 +39,23 @@ const HeaderLoader = () => {
   );
 };
 
-const footerLogo: Record<"light" | "dark", string> = {
-  dark: "https://cdn.timerise.io/app/timerise-logo-invert.png",
-  light: "https://cdn.timerise.io/app/timerise-logo.png",
-};
 
 const ErrorHeaderWrapper = styled.div`
   position: relative;
 `;
 
 const TimeRiseLogo = styled.img`
-  width: 45%;
+  width: 35%;
   height: auto;
   position: relative;
   top: -12px;
 `;
 
 const ErrorHeader = () => {
-  const themeType = useRecoilValue(themeSelector);
   return (
     <ErrorHeaderWrapper>
       <TimeRiseLogo
-        src="https://tu-spot.cl/wp-content/uploads/2022/11/logo-spot.png"
+        src="https://tu-spot.cl/wp-content/uploads/2023/01/logo_new.png"
         alt="timerise logo"
         data-cy="time-rise-footer-logo"
       />
@@ -75,7 +67,6 @@ const Header: React.FC = () => {
   const location = useLocation();
   const data = useRecoilValue(headerSelector);
   const isBrandedPage = useIsBrandedPageFlag();
-  const { t } = useTranslation();
   if (isBrandedPage && data === undefined) return <HeaderLoader />;
 
   if (location.pathname === "/") {
@@ -86,14 +77,14 @@ const Header: React.FC = () => {
     <Wrapper>
       <Row className="full-row-wrap">
         <Row>
-          <CompanyLogo src="https://tu-spot.cl/wp-content/uploads/2022/11/logo-spot.png" alt="logo" />
-          <Box ml={1.25}>
+          <CompanyLogo src="https://tu-spot.cl/wp-content/uploads/2023/01/logo_new.png" alt="logo"/>
+          <Box ml={1.25} >
             <Typography
               typographyType="h1"
               as="h1"
               displayType="contents"
-              data-cy="company-name"
-            >
+              data-cy="company-name"              
+            >              
             </Typography>
           </Box>
         </Row>
