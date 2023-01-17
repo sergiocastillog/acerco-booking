@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   }
 
   & > .full-row-wrap {
-    width: 100%;
+    width: 100%; 
     gap: 20px;
     flex-wrap: wrap;
   }
